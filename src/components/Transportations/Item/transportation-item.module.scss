@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(221 255 176 / 94%);
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(196 251 69);
+  }
+
+  &_selected {
+    background-color: rgb(196 251 69);
+  }
+}
+
+.company-info {
+  &__item {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  &__label {
+    min-width: 200px;
+    font-size: 18px;
+  }
+
+  &__title {
+    min-width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4c6c00;
+  }
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  &__label {
+    font-size: 14px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+  }
+}

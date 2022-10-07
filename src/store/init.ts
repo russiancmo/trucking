@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import { takeEvery } from "redux-saga/effects";
-import { ECoordinateType } from "../enums/coordinate-types";
+import { ECoordinateType } from "../enum/coordinate-types";
 
 const initialState = {
   coordinates: [

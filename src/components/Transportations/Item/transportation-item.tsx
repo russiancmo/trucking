@@ -4,7 +4,7 @@ import { ITransportationItem } from "./transportation-item.types";
 import store, { changeCoord, setIsLoading } from "../../../store/init";
 import cn from "classnames";
 import styles from "./transportation-item.module.scss";
-import { ECoordinateType } from "../../../enums/coordinate-types";
+import { ECoordinateType } from "../../../enum/coordinate-types";
 
 export const TransportationItem = ({
   id,

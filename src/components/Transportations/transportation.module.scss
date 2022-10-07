@@ -1,0 +1,53 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.container {
+  width: 1200px;
+  height: 500px;
+  box-sizing: content-box;
+  display: flex;
+  column-gap: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #abdf2e;
+  box-shadow: rgb(122 171 58) 0px 20px 30px -10px;
+
+  &_loading {
+    filter: blur(9px);
+    background-color: #abdf2e8c;
+  }
+}
+
+.resizable {
+  height: 100%;
+  width: 4px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #6b8d1d;
+  cursor: col-resize;
+}
+
+.info {
+  width: 50%;
+}
+
+.map {
+  width: 50% !important;
+  flex: auto;
+}
+
+.title {
+  color: white;
+}
+
+.copyright {
+  & span {
+    color: white;
+    font-size: 16px;
+  }
+  margin: 20px auto;
+}
